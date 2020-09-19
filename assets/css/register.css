@@ -1,0 +1,46 @@
+.submit-reg {
+    background-color: #9fe3b3a6;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    color: rgb(106, 106, 106);
+    font-family: 'robotoregular', Arial, sans-serif;
+    font-size: 15px;
+    padding: 0.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.title-reg {
+    font-family: 'robotothin', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(84, 106, 127);
+    padding-left: 3rem;
+}
+
+.card{
+    background-color: #ffffffa6;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 800px;
+    align-self: center;
+}
+
+.forgot-pswd {
+    display: flex;
+    font-family: 'robotoregular', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #9b9be0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

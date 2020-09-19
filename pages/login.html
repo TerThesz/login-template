@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <script type="text/javascript" src="../assets/js/main.js"></script>
+        <link rel="stylesheet" href="../assets/css/main.css"></link>
+        <link rel="stylesheet" href="../assets/css/login.css"></link>
+        <title>Basic Login</title>
+    </head>
+    <body>
+        <div id="card" class="card">
+            <header>
+                <h1 class="title">Login to continue</h1>
+            </header>
+            <form id="login" action="#">
+                <label for="mail" class="input-label">E-mail</label><br>
+                <input type="email" type="text" name="mail" id="mail">
+                <label for="pswd" class="input-label">Passwords</label><br>
+                <input  type="password" name="pswd" id="pswd">
+                <a class="forgot-pswd" id="forgot-pswd">Forgot password?</a>
+                <button type="button" name="submit" id="submit"
+                value="Login" onclick="login(this.form)">Login</button>
+            </form>
+        </div>
+        <footer>
+            <a class="footer">&copy;TerThesz 2020</a>
+        </footer>
+    </body>
+</html>

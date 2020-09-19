@@ -1,0 +1,28 @@
+.email-confirm-card{
+    background-color: #ffffffa6;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 800px;
+    align-self: center;
+}
+
+.email-confirm-input {
+    padding-right: 0;
+    display: inline-flex;
+    text-align: center;
+}
+
+.email-confirm-label {
+    margin-bottom: 1rem; 
+    margin-left: 5.5rem;
+    font-size: 15px;
+}
+
+.email-confirm-btn {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <script type="text/javascript" src="../assets/js/main.js"></script>
+        <link rel="stylesheet" href="../assets/css/main.css"></link>
+        <link rel="stylesheet" href="../assets/css/register.css"></link>
+        <title>Basic Register</title>
+    </head>
+    <body>
+        <div id="card" class="card">
+            <header>
+                <h1 class="title-reg">Register</h1>
+            </header>
+            <form id="login" action="#">
+                <label for="mail" class="input-label">E-mail</label><br>
+                <input type="email" type="text" name="mail" id="mail">
+                <label for="pswd" class="input-label">Passwords</label><br>
+                <input  type="password" name="pswd" id="pswd">
+                <label for="cpswd" class="input-label">Confirm Password</label><br>
+                <input  type="password" name="cpswd" id="cpswd">
+                <a class="forgot-pswd" id="forgot-pswd" onclick="location.href='login.html'">Do you want to login?</a>
+                <button type="button" name="submit" id="submit" class="submit-reg"
+                value="Login" onclick="register(this.form)">Register</button>
+            </form>
+        </div>
+        <footer>
+            <a class="footer">&copy;TerThesz 2020</a>
+        </footer>
+    </body>
+</html>

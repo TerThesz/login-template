@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <script type="text/javascript" src="../assets/js/email-verification.js"></script>
+        <link rel="stylesheet" href="../assets/css/main.css"></link>
+        <link rel="stylesheet" href="../assets/css/email-confirm.css"></link>
+        <title>Password Reset</title>
+    </head>
+    <body>
+        <div class="email-confirm-card">
+            <header>
+                <h1 class="title">Email Confirmation</h1>
+            </header>
+            <form class="email-confirm">
+                <label for="email-confirm-n1" class="input-label email-confirm-label">CODE</label>
+                <input type="number" id="email-confirm-n1" name="email-confirm-n1" class="email-confirm-input" style="width: 3rem; margin-left: 0rem; margin-top: 0;">
+                <input type="number" id="email-confirm-n2" name="email-confirm-n2" class="email-confirm-input" style="width: 3rem">
+                <input type="number" id="email-confirm-n3" name="email-confirm-n3" class="email-confirm-input" style="width: 3rem">
+                <input type="number" id="email-confirm-n4" name="email-confirm-n4" class="email-confirm-input" style="width: 3rem">
+                <button type="button" class="email-confirm-btn" onclick="emailConfirm(this.form)">Confirm</button>
+                <a class="subtitle">We have sent you an email <br/> containing a code.<br/> Enter that code above to continue.</a>
+            </form>
+        </div>
+        <footer>
+            <a class="footer">&copy;TerThesz 2020</a>
+        </footer>
+    </body>
+</html>

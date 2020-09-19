@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecececa6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.center {
+    -ms-transform: translateX(25%);
+    transform: translateX(25%);
+}
+
+.title {
+    font-family: 'robotothin', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(84, 106, 127);
+}
+
+button {
+    background-color: #9fe3b3a6;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    color: rgb(106, 106, 106);
+    font-family: 'robotoregular', Arial, sans-serif;
+    font-size: 15px;
+    padding: 0.8rem;
+    padding-left: 3rem; 
+    padding-right: 3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    background-color: #e2e2e26f;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    color: rgb(106, 106, 106);
+    font-family: 'robotoregular', Arial, sans-serif;
+    font-size: 15px;
+    padding: 0.8rem;
+    padding-right: 1rem;
+    margin-left: .2rem;
+}
+
+.input-label {
+    color: rgba(72, 72, 72, 0.687);
+    font-family: 'robotoregular', Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    padding-top: 2rem;
+    margin-left: 1rem;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+input:focus {
+    outline: none;
+}
+
+.footer {
+    position:fixed;bottom:0;left: 0;
+    width:100%;
+    display:block;
+    font-family: 'robotoregular', Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(105, 105, 105);
+    padding-left: 1rem;
+}
+
+.subtitle {
+    font-family: 'robotoregular', Arial, sans-serif;
+    display: flex;
+    font-size: 14px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #9b9be0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

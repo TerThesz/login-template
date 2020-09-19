@@ -1,0 +1,16 @@
+.home-card{
+    padding: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-self: center;
+}
+
+.home-register-btn {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.home-login-btn {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}

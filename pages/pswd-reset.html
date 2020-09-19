@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <script type="text/javascript" src="../assets/js/pswd-reset.js"></script>
+        <link rel="stylesheet" href="../assets/css/main.css"></link>
+        <link rel="stylesheet" href="../assets/css/pswd-reset.css"></link>
+        <title>Password Reset</title>
+    </head>
+    <body>
+        <div class="pswd-reset-card">
+            <header>
+                <h1 class="title">Change Your Password</h1>
+            </header>
+            <form id="pswd-reset-form" action="#">
+                <label for="reset-input-password" class="input-label reset-lable">New Password</label>
+                <input type="text" id="reset-input-password" name="reset-input-password" class="reset-input">
+                <label for="reset-input-con-password" class="input-label reset-lable">Confirm Password</label>
+                <input type="text" id="reset-input-con-password" name="reset-input-con-password" class="reset-input">
+                <button type="button" id="reset-btn-confirm" name="reset-btn-confirm" class="reset-btn"
+                onclick="pswdReset(this.form)">Continue</button>
+            </form>
+        </div>
+        <footer>
+            <a class="footer">&copy;TerThesz 2020</a>
+        </footer>
+    </body>
+</html>
