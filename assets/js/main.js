@@ -1,9 +1,3 @@
-/*firebase.auth().onAuthStateChanged(function(user) {
-    if (user) {
-        window.location.replace('done.html');
-    }
-});*/
-
 function login(form) {
     const mail = form.mail.value;
     const pswd = form.pswd.value;
